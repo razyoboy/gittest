@@ -1,7 +1,16 @@
 import numpy as ganyu
 
-a = input()
-b = ganyu.arange(1,int(a)+1)
-c = ganyu.product(b)
-print(b)
-print(c)
+set = [2,4,6,7,8,5]
+b = []
+
+def prime(set):
+    for i in range(2,len(set)):
+        for p in range(len(set)):
+            num = set[p]
+            print(num)
+            if (num % i) == 0:
+                if num not in b:
+                    b.append(num)
+                    return b
+
+res = prime(set); print(res)
