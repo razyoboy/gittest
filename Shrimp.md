@@ -23,6 +23,7 @@ Now lets continue,
 
 **ANSYS itself has many applications, those being;**
 ---
+
 * Aerospace / Defense
 * High Tech Electronics
 * Healthcare and Biomedical Industries
