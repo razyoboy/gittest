@@ -59,6 +59,7 @@ CDF Workflow using ANSYS Fluent
     * Examine Results
 
 **ANSYS Meshing**
+
 SpaceClaim -> CAD for ANSYS family of softwares, so you can use the damn thing directly.
 
 Purpose of Meshing
@@ -68,4 +69,6 @@ Purpose of Meshing
     * ORTHOGONAL QUALITY = 0.15 - 1.00 is okay. (0.95 - 1.00 is the best)
 
 **ANSYS Fluent**
+
 Fluent supports the new GEKO model (Generalized k-Omega Model), which is created by ANSYS themselves lol.
+For **_Multi-Phase Flow_** however, we either use Euler-Euler Models or Eular-Lagrane Method
