@@ -58,3 +58,14 @@ CDF Workflow using ANSYS Fluent
 * **Post Processing**
     * Examine Results
 
+**ANSYS Meshing**
+SpaceClaim -> CAD for ANSYS family of softwares, so you can use the damn thing directly.
+
+Purpose of Meshing
+* Equations are solved at the mesh node location, hence it is required.
+* By which the parameters must be met as follows;
+    * SKEWNESS = 0 - 0.94 is okay. (0 - 0.25 is the best)
+    * ORTHOGONAL QUALITY = 0.15 - 1.00 is okay. (0.95 - 1.00 is the best)
+
+**ANSYS Fluent**
+Fluent supports the new GEKO model (Generalized k-Omega Model), which is created by ANSYS themselves lol.
