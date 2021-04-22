@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quadratic Solver v2.0</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>Quadratic Solver</h1>
+  <hr>
+  <p>Solve Ax<sup>2</sup> + Bx + C = 0 for x,</p>
+  <p id="eq_p"></p>
+  <hr>
+  <p id="out_p"></p>
+  <script>
+    var A = 1,
+      B = 2,
+      C = 3;
+    document.getElementById("eq_p").innerHTML = "where<br>A = " + A + ", B = " + B + ", C = " + C;
+    if (A == 0) {
+      var x = -C / B;
+      document.getElementById("out_p").innerHTML = "x = " + x;
+    } else {
+      var s = B ** 2 - 4 * A * C;
+      if (s == 0) {
+        var x = -B / (2 * A);
+        document.getElementById("out_p").innerHTML = "x = " + x;
+      } else {
+        if (s > 0) {
+          var x1 = (-B - s ** 0.5) / (2 * A);
+          var x2 = (-B + s ** 0.5) / (2 * A);
+          document.getElementById("out_p").innerHTML = "x = " + x1 + ", " + x2;
+        } else {
+          var x = -B / (2 * A);
+          var y = (-s) ** 0.5 / (2 * A);
+          document.getElementById("out_p").innerHTML = "x = " + x + " ± " + y + "i";
+        }
+      }
+    }
+  </script>
+
+</body>
+
+</html>
