@@ -57,3 +57,5 @@ for xs,ys in zip(x,ymod):
 
 plt.title('Linear NDD Interpolation Results')
 plt.show()
+
+#github.com/razyoboy/unishared

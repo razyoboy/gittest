@@ -36,7 +36,7 @@ def LGR(x,y):
         y = np.append(y, float(inty))
     return y
 
-ymod = LGR(x,y); print(ymod)
+ymod = LGR(x,y)
 
 print(f"Interpolated values are (x,y);")
 w = len(ymod)
@@ -57,3 +57,5 @@ for xs,ys in zip(x,ymod):
 
 plt.title('Quadratic LGR Interpolation Results')
 plt.show()
+
+#github.com/razyoboy/unishared

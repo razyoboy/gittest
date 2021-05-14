@@ -22,7 +22,7 @@ def three(x,y):
         y = np.append(y, float(inty))
     return y
 
-ymod = three(x,y); print(ymod)
+ymod = three(x,y)
 print(f"Interpolated values are (x,y);")
 w = len(ymod)
 p = 0
@@ -42,3 +42,5 @@ for xs,ys in zip(x,ymod):
 
 plt.title('Polynomial (Higher Order) NDD Interpolation Results')
 plt.show()
+
+#github.com/razyoboy/unishared

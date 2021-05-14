@@ -55,3 +55,5 @@ for xs,ys in zip(x,ymod):
 
 plt.title('Linear LGR Interpolation Results')
 plt.show()
+
+#github.com/razyoboy/unishared

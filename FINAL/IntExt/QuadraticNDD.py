@@ -59,3 +59,5 @@ for xs,ys in zip(x,ymod):
 
 plt.title('Quadratic NDD Interpolation Results')
 plt.show()
+
+#github.com/razyoboy/unishared
