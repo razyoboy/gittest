@@ -18,3 +18,5 @@ print("Answer obtained from Trapezoidal Rule:")
 Itrap = (((b-a)/2)*(f(a)+f(b)))
 err = ((I[0] - Itrap) / I[0])*100
 print(f"{Itrap} with an error of {err} %")
+
+#github.com/razyoboy/unishared
