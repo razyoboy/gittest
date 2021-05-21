@@ -1,9 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.array([])
-y = np.array([])
+x = np.array([0,10,20,13.75])
+y = np.array([-1,47019,776039])
 
+'''
 print("Please input your x-values (x-axis) [Minimum of Three] \n When done please type any character")
 
 while True:
@@ -23,6 +24,7 @@ while True:
         y = np.append(y, float(yint))
     except:
         break
+'''
 
 def LGR(x,y):
     n = len(x) - 3

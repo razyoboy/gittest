@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.array([2,3,4,5,3.2])
-y = np.array([0.2239,-0.2601,-0.3971,-0.51245])
+x = np.array([9,12,16,19,13.75])
+y = np.array([30635,98519,315423,631065])
 
 #For three points, I think I'll add four and five later - but I think I get how it works.
 #So if she have six points then its mega messy, but it'll be okay. -ish.
