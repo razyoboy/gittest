@@ -5,9 +5,9 @@
 
 **IMPORTANT INFORMATION**
 ---
-As some images and photos found in the /img/ folder of this git repo, if you are the owner of these images and feel that this is unacceptable or otherwise, please do not hesitate to tell us - and we shall promptly remove it. 
+As some images and photos found in the /img/ folder of this git repo may be (or is) copyrighted, if you are the owner of these images and feel that this is unacceptable or otherwise, please do not hesitate to tell us - and we shall promptly remove it. 
 
-Note that however, these images are only used in educational purposes only.
+Note that however, these images are only used in educational purposes only. But then again, if you do not feel that way; that is no excuse for us - and we shall remove the image in question as soon as possible.
 
 Contact: razyoboy(at)gmail.com
 
