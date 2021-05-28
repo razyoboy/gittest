@@ -1,9 +1,10 @@
 {
-    "python.pythonPath": "C:\\Users\\wendy\\anaconda3\\python.exe"
-    "workbench.colorCustomizations": {
-    "statusBar.background" : "#2e2e2e",
-    "statusBar.noFolderBackground" : "#212121",
-    "statusBar.debuggingBackground": "#263238"
-}
+    "python.pythonPath": "C:\\Users\\wendy\\anaconda3\\python.exe",
+    "workbench.colorCustomizations":{
+            "statusBar.background" : "#2e2e2e",
+            "statusBar.noFolderBackground" : "#212121",
+            "statusBar.debuggingBackground": "#263238"
+        }
+
 }
 
