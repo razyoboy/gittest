@@ -8,6 +8,6 @@
         },
         },
     "python.languageServer": "Pylance",
-    "jupyter.jupyterServerType": "local"
-
+    "jupyter.jupyterServerType": "local",
+    "editor.fontFamily": "SF Mono"
 }
