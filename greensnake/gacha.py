@@ -9,7 +9,7 @@ class Gacha():
     tallythree = np.array([])
 
     fivestars = ["Albedo","Diluc","Eula","Ganyu","Hu Tao","Jean","Keqing","Klee"
-    ,"Mona","Qiqi","Tartaglia","Venti","Xiao","Zhongli"]
+    ,"Mona","Qiqi","Tartaglia","Venti","Xiao","Zhongli", "Ayaka", "Baal"]
     fourstars = ["Amber","Beidou","Bennet","Chongyun","Diona","Fishcl","Kaeya"
     ,"Lisa","Ningguang","Noelle","Razor","Rosaria","Sucrose","Xiangling","Xingqiu","Xinyan"
     ,"Yanfei"]
